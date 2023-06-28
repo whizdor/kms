@@ -9,7 +9,7 @@
 }
 
 body{
-    height: 300vh;
+    height: 240vh;
     position: relative;
     display: flex;
     flex-direction: column;
