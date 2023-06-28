@@ -20,18 +20,106 @@ body{
 {
     position: inherit;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'VT323', monospace;
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .intro
 {
     position: inherit;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Jura', sans-serif;
+    text-align: justify;
+    font-size: 28px;
+}
+
+.contact
+{
+    position: inherit;
+    color: white;
+    font-family: 'VT323', monospace;
     text-align: center;
+    font-size: 80px;
+}
+.contact-subclass
+{
+    position: inherit;
+    color: white;
+    padding-left: 20px;
+    font-family: 'VT323', monospace;
+    text-align: left;
+    font-size: 40px;
+}
+
+.contact-subclass2
+{
+    position: inherit;
+    color: white;
+    padding-left: 30px;
+    font-family: 'VT323', monospace;
+    text-align: left;
     font-size: 30px;
+}
+
+.contact-info
+{
+    position: inherit;
+    color: white;
+    padding-left: 50px;
+    font-family: 'Jura', sans-serif;
+    text-align: justify;
+    font-size: 28px;
+}
+
+.form
+{
+    color: white;
+}
+.form-lable
+{
+    position: inherit;
+    color: white;
+    padding-left: 30px;
+    font-family: 'VT323', monospace;
+    text-align: left;
+    font-size: 30px;
+}
+
+input[name="review"]
+{
+    width: 600px;
+    height: 250px;
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+}
+
+input[name="name"]
+{
+    width: 600px;
+    height: 50px;
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+}
+
+input[name="mail"]
+{
+    width: 600px;
+    height: 50px;
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -61,6 +149,22 @@ header{
     padding: 8px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    transition: .5s;
+}
+
+.nav-area li a1{
+    color: white;
+    font-style: italic;
+    background: rgba(255,255,255, 0.3);
+    text-decoration: none;
+    padding: 8px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.nav-area li a1:hover{
+    background: #fff;
+    color : #000;
 }
 
 .nav-area li a:hover{
@@ -86,7 +190,7 @@ header{
 .welcome-text h1{
     text-align: center;
     color: white;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Bruno Ace SC', cursive;
     text-transform: uppercase;
     font-size: 60px;
 }
