@@ -2,22 +2,18 @@
     margin : 0;
     padding : 0;
 }
-html{
-    scroll-behavior: smooth;
-}
 .wrapper{
     width : 1270px;
     margin : auto;
-}
+ }
 
-body{
-    height: 270vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
+ body{
+     height: 240vh;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+    background-color: rgba(0,0,0,1);
 }
-
 .title
 {
     position: inherit;
@@ -25,103 +21,144 @@ body{
     font-family: 'VT323', monospace;
     text-align: center;
     font-size: 80px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 4%;
-    margin-bottom: 4%;
 }
-
 .intro
 {
     position: inherit;
-    color: rgb(243, 135, 135);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-align: justify;
+    font-size: 28px;
+}
+.contact
+{
+    position: inherit;
+    color: white;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 80px;
+}
+.contact-subclass
+{
+    position: inherit;
+    color: white;
+    padding-left: 20px;
+    font-family: 'VT323', monospace;
     text-align: left;
-    
-    padding-right: 50%;
+    font-size: 40px;
+}
+.contact-subclass2
+{
+    position: inherit;
+    color: white;
+    padding-left: 30px;
+    font-family: 'VT323', monospace;
+    text-align: left;
+    font-size: 30px;
+}
+.contact-info
+{
+    position: inherit;
+    color: white;
+    padding-left: 50px;
+    font-family: 'Jura', sans-serif;
+    text-align: justify;
+    font-size: 28px;
+}
+.form
+{
+    color: white;
+}
+.form-lable
+{
+    position: inherit;
+    color: white;
+    padding-left: 30px;
+    font-family: 'VT323', monospace;
+    text-align: left;
+    font-size: 30px;
+}
+input[name="review"]
+{
+    width: 600px;
+    height: 250px;
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+}
+input[name="name"]
+{
+    width: 600px;
+    height: 50px;
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+}
+input[name="mail"]
+{
+    width: 600px;
+    height: 50px;
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
 }
 header{
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)),url(images/img.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(images/img.jpg);
     height: 100vh;
     -webkit-background-size:cover;
     background-size:cover;
     background-position: center center;
     position: relative;
 }
-h2{
-    color: #ffffff;
-}
-.About{
-    background-color: #ffffff;
-    padding-left: 10%;
-    padding-right: 10%
-}
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center
-  }
-
-img {
-    max-width: 400px;
-    max-height:400px;
-  }
-  
-.text {
-    font-size: 20px;
-    padding-left: 20px;
-    color: #000000;
-  }
-  .button {
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button1 {background-color: #4CAF50;} /* Green */
-.button1:hover{
-    background-color: #87ace4;
-    color:#000000;
-}
- 
-
 .nav-area{
     float : right;
     list-style: none;
     margin-top: 30px;
 }
-
 .nav-area li{
     display: inline-block;
     padding: 25px;
 }
-
 .nav-area li a{
     color: white;
     text-decoration: none;
     padding: 8px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    transition: .5s;
 }
-
+.nav-area li a1{
+    color: white;
+    font-style: italic;
+    background: rgba(255,255,255, 0.3);
+    text-decoration: none;
+    padding: 8px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.nav-area li a1:hover{
+    background: #fff;
+    color : #000;
+}
 .nav-area li a:hover{
      background: #fff;
      color : #000;
 }
-
 .logo img{
     width: 100px;
     float: left;
     height: auto;
     padding: 40px 40px;
 }
-
 .welcome-text{
     position: absolute;
     width : 1000px;
@@ -129,15 +166,33 @@ img {
     margin: 20% 15%;
     text-align: center;
 }
-
 .welcome-text h1{
     text-align: center;
     color: white;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Bruno Ace SC', cursive;
     text-transform: uppercase;
     font-size: 60px;
 }
 
+.title{
+    position: inherit;
+    color: white;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 4%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.title-info{
+    position: inherit;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-align: justify;
+    font-size: 38px;
+    margin: 3%;
+}
 footer
 {
     position: relative;
@@ -147,7 +202,6 @@ footer
     min-height: 100px;
     padding: 20px 50px;
 }
-
 footer .social_icon
 {
     position: relative;
@@ -156,12 +210,10 @@ footer .social_icon
     align-items: center;
     margin: 10px 0;
 }
-
 footer .social_icon li
 {
     list-style: none;
 }
-
 footer .social_icon li a
 {
     font-size: 2em;
@@ -174,7 +226,6 @@ footer .social_icon li a:hover
 {
     transform: translateY(-10px);
 }
-
 footer .wave
 {
     position: absolute;
@@ -185,8 +236,6 @@ footer .wave
     background:url("wave.png");
     background-size: 1000px 100px;; 
 }
-
-
 footer .wave#wave1
 {
     z-index: 1000;
@@ -194,7 +243,6 @@ footer .wave#wave1
     bottom: 0;
     animation: animateWave 4s linear infinite;
 }
-
 footer .wave#wave2
 {
     z-index: 999;
@@ -202,7 +250,6 @@ footer .wave#wave2
     bottom: 10px;
     animation: animateWave02 4s linear infinite;
 }
-
 footer .wave#wave3
 {
     z-index: 1000;
@@ -210,7 +257,6 @@ footer .wave#wave3
     bottom: 15px;
     animation: animateWave 3s linear infinite;
 }
-
 footer .wave#wave4
 {
     z-index: 999;
@@ -218,7 +264,6 @@ footer .wave#wave4
     bottom: 20px;
     animation: animateWave02 3s linear infinite;
 }
-
 @keyframes animateWave {
     0%{
         background-position-x: 1000px;
@@ -227,7 +272,6 @@ footer .wave#wave4
         background-position-x: 0px;
     } 
 }
-
 @keyframes animateWave02 {
     0%{
         background-position-x: 0px;
