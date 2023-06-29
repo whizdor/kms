@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    height: 270vh;
+    height: 250vh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -21,14 +21,10 @@ body{
 .title
 {
     position: inherit;
-    color: white;
-    font-family: 'VT323', monospace;
-    text-align: center;
-    font-size: 80px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-size: 50px;
 }
 
 .intro
@@ -49,47 +45,6 @@ header{
     background-position: center center;
     position: relative;
 }
-h2{
-    color: #ffffff;
-}
-.About{
-    background-color: #ffffff;
-    padding-left: 10%;
-    padding-right: 10%
-}
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center
-  }
-
-img {
-    max-width: 400px;
-    max-height:400px;
-  }
-  
-.text {
-    font-size: 20px;
-    padding-left: 20px;
-    color: #000000;
-  }
-  .button {
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button1 {background-color: #4CAF50;} /* Green */
-.button1:hover{
-    background-color: #87ace4;
-    color:#000000;
-}
- 
 
 .nav-area{
     float : right;
@@ -236,3 +191,54 @@ footer .wave#wave4
         background-position-x: 1000px;
     } 
 }
+
+/* this section will style the images of our cars */
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .img-wrapper {
+    position: relative;
+    overflow: hidden;
+  } 
+  
+  .img-wrapper > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+  }
+  .img-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-wrapper > .content {
+    transition: 200ms ease-in-out;
+  }
+  .img-wrapper > .content.slide-up {
+    transform: translateY(100%);
+  }
+  .img-wrapper:hover > .content.slide-up {
+    transform: translateY(0);
+  }
+
+
+
+
+
+
+
+
+
+
+
