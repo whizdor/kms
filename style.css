@@ -3,12 +3,12 @@
     padding : 0;
 }
 .wrapper{
-    width : 1270px;
+    width : 100%;
     margin : auto;
  }
 
  body{
-     height: 240vh;
+     height: 260vh;
      position: relative;
      display: flex;
      flex-direction: column;
@@ -20,7 +20,7 @@
     color: white;
     font-family: 'VT323', monospace;
     text-align: center;
-    font-size: 80px;
+    font-size: 5vw;
 }
 .intro
 {
@@ -28,7 +28,7 @@
     color: white;
     font-family: 'Jura', sans-serif;
     text-align: justify;
-    font-size: 28px;
+    font-size: 2.1vw;
 }
 .contact
 {
@@ -36,7 +36,7 @@
     color: white;
     font-family: 'VT323', monospace;
     text-align: center;
-    font-size: 80px;
+    font-size: 7vw;
 }
 .contact-subclass
 {
@@ -45,7 +45,7 @@
     padding-left: 20px;
     font-family: 'VT323', monospace;
     text-align: left;
-    font-size: 40px;
+    font-size: 3.2vw;
 }
 .contact-subclass2
 {
@@ -54,7 +54,7 @@
     padding-left: 30px;
     font-family: 'VT323', monospace;
     text-align: left;
-    font-size: 30px;
+    font-size: 2.8vw;
 }
 .contact-info
 {
@@ -63,7 +63,7 @@
     padding-left: 50px;
     font-family: 'Jura', sans-serif;
     text-align: justify;
-    font-size: 28px;
+    font-size: 2.4vw;
 }
 .form
 {
@@ -76,40 +76,40 @@
     padding-left: 30px;
     font-family: 'VT323', monospace;
     text-align: left;
-    font-size: 30px;
+    font-size: 3vw;
 }
 input[name="review"]
 {
-    width: 600px;
-    height: 250px;
-    padding-left: 20px;
-    margin-left: 40px;
+    width: 80%;
+    height: 25vh;
+    padding-left: 2px;
+    margin-left: 4vw;
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'Jura', sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
 }
 input[name="name"]
 {
-    width: 600px;
-    height: 50px;
+    width: 80%;
+    height: 15vh;
     padding-left: 20px;
     margin-left: 40px;
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'Jura', sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
 }
 input[name="mail"]
 {
-    width: 600px;
+    width: 80%;
     height: 50px;
     padding-left: 20px;
     margin-left: 40px;
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'Jura', sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
 }
 header{
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(images/img.jpg);
@@ -133,7 +133,7 @@ header{
     text-decoration: none;
     padding: 8px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 1vw;
     transition: .5s;
 }
 .nav-area li a1{
@@ -143,7 +143,7 @@ header{
     text-decoration: none;
     padding: 8px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 1vw;
 }
 .nav-area li a1:hover{
     background: #fff;
@@ -154,14 +154,14 @@ header{
      color : #000;
 }
 .logo img{
-    width: 100px;
+    width: 10%;
     float: left;
     height: auto;
     padding: 40px 40px;
 }
 .welcome-text{
     position: absolute;
-    width : 1000px;
+    width : 80%;
     height: 300px;
     margin: 20% 15%;
     text-align: center;
@@ -171,7 +171,7 @@ header{
     color: white;
     font-family: 'Bruno Ace SC', cursive;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 4.5vw;
 }
 
 .title{
@@ -179,7 +179,7 @@ header{
     color: white;
     font-family: 'VT323', monospace;
     text-align: center;
-    font-size: 80px;
+    font-size: 8vw;
     margin-top: 4%;
     margin-right: 2%;
     margin-left: 2%;
@@ -190,13 +190,13 @@ header{
     color: white;
     font-family: 'Jura', sans-serif;
     text-align: justify;
-    font-size: 38px;
+    font-size: 2.1vw;
     margin: 3%;
 }
 footer
 {
     position: relative;
-    width: 1340px;
+    width: 100%;
     margin-top: auto;
     background: #3586ff;
     min-height: 100px;
